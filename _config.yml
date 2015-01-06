@@ -12,3 +12,6 @@ github_username:  iooner
 
 # Build settings
 markdown: kramdown
+
+timezone: Europe/Brussels
+encoding: utf-8

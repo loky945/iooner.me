@@ -1,37 +1,40 @@
 ---
 layout: default
 ---
+<!-- post index --> 
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  {% for post in site.posts limit:3 %}
+    <article class="feed">
+      <div class="title">
+          <h1>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.titre }}</a>
+          </h1>
+          <h5>{{ post.auteur }}, {{ post.date | date: "%D - %k:%M" }}</h5>
+      </div>
+      
+      <div class="img_full">
+          <img class="img-full" src="" alt="" />
+      </div>
+      
+      <div class="text">
 
+       {{ post.content }}
 
-
-{% for post in site.posts %}
-  <article class="feed">
-    <div class="title">
-        <h1>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
-        <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
-    </div>
-    
-    <div class="img_full">
-        <img class="img-full" src="" alt="" />
-    </div>
-    
-    <div class="text">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="share">
-            <h3>Partager :</h3>
-                <a class="btn-share facebook" href="#"><i class="fa fa-facebook"></i> Facebook</a>
-                <a class="btn-share twitter" href="#"><i class="fa fa-twitter"></i> Twitter</a>
-                <a class="btn-share google" href="#"><i class="fa fa-google-plus"></i> Google+</a>
-            <h3>Tags :</h3>
-            <span><a href="">35€</a>, <a href="">apple</a>, <a href="">pi</a>, <a href="">raspberry</a></span>
-        </div>
-    </div>
- </article>
-{% endfor %}
+          <div class="share">
+              <h3>Partager :</h3>
+                  <a class="btn-share facebook" href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a class="btn-share twitter" href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                  <a class="btn-share google" href="#"><i class="fa fa-google-plus"></i> Google+</a>
+              <h3>Tags :</h3>
+              <span>
+                {% for tag in post.tags %}
+                  <a href="/tag/{{ tag }}">{{ tag }},</a>
+                {% endfor %}
+              </span>
+          </div>
+          
+      </div>
+   </article>
+  {% endfor %}
+  </div>
+<!-- fin post index --> 

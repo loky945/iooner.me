@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-01-06 00:54:27
+titre:  "Welcome to Jekyll!"
+date:   2015-01-06 15:00:00
+auteur: iooner
 categories: jekyll update
+tags: test jekyll intégration
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
