@@ -6,14 +6,18 @@ layout: default
   {% for post in paginator.posts %}
     <article class="feed">
       <div class="title">
+        
           <h1>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.titre }}</a>
           </h1>
+          
           <h5>{{ post.auteur }}, {{ post.date | date: "%D - %k:%M" }}</h5>
       </div>
+      {% if post.img %}
       <div class="img_full">
         <img class="img-full" src="{{ site.baseurl }}/img/{{ post.img }}" alt="{{ post.titre }}" />
       </div>
+      {% endif %}
       <div class="text">
        {{ post.content }}
           <div class="share">

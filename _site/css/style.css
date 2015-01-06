@@ -688,6 +688,10 @@ a.navbar-brand .img-brand {
 	height: 50px;
 }
 
+.menu_condensed ul.other_sites li>a i {
+	width: 22px;
+}
+
 .menu_condensed ul.other_sites li>a span {
 	text-transform: uppercase;
 	margin-left: 20px;
