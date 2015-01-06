@@ -1,0 +1,18 @@
+li.active>a.live i { 
+	-webkit-animation:onlive 1.5s infinite; /* Chrome, Safari, Opera */
+	animation:onlive 1.5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes onlive {
+	0%   {opacity: 1}
+	50%  {opacity: 0}
+	100% {opacity: 1}
+}
+
+/* Standard syntax */
+@keyframes onlive {
+	0%   {opacity: 1}
+	50%  {opacity: 0}
+	100% {opacity: 1}
+}
