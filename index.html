@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- post index --> 
 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  {% for post in site.posts limit:3 %}
+  {% for post in paginator.posts %}
     <article class="feed">
       <div class="title">
           <h1>
@@ -11,15 +11,11 @@ layout: default
           </h1>
           <h5>{{ post.auteur }}, {{ post.date | date: "%D - %k:%M" }}</h5>
       </div>
-      
       <div class="img_full">
-          <img class="img-full" src="" alt="" />
+        <img class="img-full" src="{{ site.baseurl }}/img/{{ post.img }}" alt="{{ post.titre }}" />
       </div>
-      
       <div class="text">
-
        {{ post.content }}
-
           <div class="share">
               <h3>Partager :</h3>
                   <a class="btn-share facebook" href="#"><i class="fa fa-facebook"></i> Facebook</a>
@@ -36,5 +32,6 @@ layout: default
       </div>
    </article>
   {% endfor %}
+  {% include pagination.html %}
   </div>
 <!-- fin post index --> 
