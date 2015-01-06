@@ -1,27 +1,233 @@
-<header class="site-header">
+    <!-- MENUS (RESPONSIVE + FIXED TOP + HEADER) --> 
 
-  <div class="wrapper">
+    <div class="navbar menu_condensed" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-brand" alt="logo"/></a>
+        </div>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <div class="navbar-collapse collapse no-transition">
+            <ul class="nav navbar-nav navbar-left">
+                <input type="text" placeholder="Rechercher..."></input>
+                <hr />
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+                <li class="active"><a href="">Accueil</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Top <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Hacks & DIY</a></li>
+                    <li><a href="#">Tutoriels</a></li>
+                    <li><a href="#">Impression 3D</a></li>
+                    <li><a href="#">Météorologie</a></li>
+                    <li><a href="#">Découvertes</a></li>
+                    <li><a href="#">Urbex</a></li>
+                    <li><a href="#">Drône</a></li>
+                  </ul>
+                </li>
+                <li><a href="">#bref</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    À propos <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Matériel</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Liens</a></li>
+                <li><a href="">Chat</a></li>
+                <li><a href="">Contact</a></li>
+                <input class="hidden-xs hidden-md" type="text" placeholder="Rechercher..."></input>
+                <hr />
+            </ul>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+            <ul class="other_sites nav navbar-nav navbar-right">
+                <li><a href="" class="blog">
+                    <i class="fa fa-file-text"></i><span>Blog</span>
+                </a></li>
+                <li><a href="" class="live">
+                    <i class="fa fa-play"></i><span>Live</span>
+                </a></li>
+                <li><a href="" class="labs">
+                    <i class="fa fa-flask"></i><span>Labs</span>
+                </a></li>
+                <li><a href="" class="sharlii">
+                    <i class="fa fa-expand"></i><span>Sharlii</span> 
+                </a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle plus" data-toggle="dropdown">
+                   <i class="fa fa-plus"></i><span>Plus</span> 
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                  </ul>
+                </li>
+            </ul> 
+        </div>
       </div>
-    </nav>
+    </div>
 
-  </div>
+    <div class="navbar menu_scroll navbar-fixed-top hidden-xs hidden-sm" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-brand" alt="logo"/></a>
+        </div>
 
-</header>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a href="">Accueil</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Top <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Hacks & DIY</a></li>
+                    <li><a href="#">Tutoriels</a></li>
+                    <li><a href="#">Impression 3D</a></li>
+                    <li><a href="#">Météorologie</a></li>
+                    <li><a href="#">Découvertes</a></li>
+                    <li><a href="#">Urbex</a></li>
+                    <li><a href="#">Drône</a></li>
+                  </ul>
+                </li>
+                <li><a href="">#bref</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    À propos <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Matériel</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Liens</a></li>
+                <li><a href="">Chat</a></li>
+                <li><a href="">Contact</a></li>
+                <input type="text" placeholder="Rechercher..."></input>
+                <input type="submit" value=""></input>
+            </ul>
+            <ul class="other_sites nav navbar-nav navbar-right">
+                <li><a href="" class="blog">
+                    <i class="fa fa-file-text"></i> 
+                </a></li>
+                <li><a href="" class="live">
+                    <i class="fa fa-play"></i> 
+                </a></li>
+                <li><a href="" class="labs">
+                    <i class="fa fa-flask"></i>
+                </a></li>
+                <li><a href="" class="sharlii">
+                    <i class="fa fa-expand"></i> 
+                </a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle plus" data-toggle="dropdown">
+                    <i class="fa fa-plus"></i>
+                    </span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                  </ul>
+                </li>
+            </ul> 
+        </div>
+      </div>
+    </div>
+
+    <header class="hidden-xs hidden-sm">
+        <div class="upper">
+            <div class="container">
+                <ul class="col-lg-4 col-md-4 networks">
+                    <li><a href="" class="facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a></li>
+                    <li><a href="" class="twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a></li>
+                    <li><a href="" class="linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a></li>
+                    <li><a href="" class="instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a></li>
+                </ul>
+
+                <ul class="col-lg-8 col-md-8 nav_sites">
+                    <li><a href="" class="blog">
+                        <i class="fa fa-file-text"></i> Blog
+                    </a></li>
+                    <li><a href="" class="live">
+                        <i class="fa fa-play"></i> Live
+                    </a></li>
+                    <li><a href="" class="labs">
+                        <i class="fa fa-flask"></i> Lab's
+                    </a></li>
+                    <li><a href="" class="sharlii">
+                        <i class="fa fa-expand"></i> Sharlii
+                    </a></li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle plus" data-toggle="dropdown">
+                        Plus <i class="fa fa-chevron-down"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="container">
+                <div class="col-lg-4 col-md-4 logo">
+                    <img src="img/logo.png" class="img-responsive" alt="logo"/>
+                </div>
+                <ul class="col-lg-8 col-md-8 nav_blog">
+                    <li><a href="">Accueil</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Top <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Hacks & DIY</a></li>
+                        <li><a href="#">Tutoriels</a></li>
+                        <li><a href="#">Impression 3D</a></li>
+                        <li><a href="#">Météorologie</a></li>
+                        <li><a href="#">Découvertes</a></li>
+                        <li><a href="#">Urbex</a></li>
+                        <li><a href="#">Drône</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">#bref</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        À propos <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Matériel</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">Liens</a></li>
+                    <li><a href="">Chat</a></li>
+                    <li><a href="">Contact</a></li>
+                    <input type="text" placeholder="Rechercher..."></input>
+                    <input type="submit" value=""></input>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- FIN MENUS (RESPONSIVE + FIXED TOP + HEADER) --> 
