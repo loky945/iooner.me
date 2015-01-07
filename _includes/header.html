@@ -19,35 +19,8 @@
                 <li><input type="text" placeholder="Rechercher...">
                 <hr /></li>
 
-                <li class="active"><a href="">Accueil</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Top <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Hacks & DIY</a></li>
-                    <li><a href="#">Tutoriels</a></li>
-                    <li><a href="#">Impression 3D</a></li>
-                    <li><a href="#">Météorologie</a></li>
-                    <li><a href="#">Découvertes</a></li>
-                    <li><a href="#">Urbex</a></li>
-                    <li><a href="#">Drône</a></li>
-                  </ul>
-                </li>
-                <li><a href="">#bref</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    À propos <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Matériel</a></li>
-                    <li><a href="#">Wishlist</a></li>
-                  </ul>
-                </li>
-                <li><a href="">Liens</a></li>
-                <li><a href="">Chat</a></li>
-                <li><a href="">Contact</a></li>
+                {% include menu.html %}
+
                 <li><input class="hidden-xs hidden-md" type="text" placeholder="Rechercher...">
                 <hr /></li>
             </ul>
@@ -56,27 +29,19 @@
                 <li><a href="http://www.iooner.me/" class="blog">
                     <i class="fa fa-file-text"></i><span>Blog</span>
                 </a></li>
-                <li><a href="http://www.iooner.me/live" class="live">
+                <li><a href="http://www.iooner.me/soon" class="live">
                     <i class="fa fa-play"></i><span>Live</span>
                 </a></li>
-                <li><a href="http://www.iooner.me/lab" class="labs">
+                <li><a href="http://www.iooner.me/soon" class="labs">
                     <i class="fa fa-flask"></i><span>Lab</span>
                 </a></li>
-                <li><a href="http://www.iooner.me/liens" class="sharlii">
+                <li><a href="http://www.iooner.me/soon" class="sharlii">
                     <i class="fa fa-expand"></i><span>Liens</span> 
                 </a></li>
-                <li><a href="http://www.iooner.me/shop" class="shop">
+                <li><a href="http://www.iooner.me/soon" class="shop">
                     <i class="fa fa-shopping-cart"></i><span>Shop</span>
                 </a></li>
                 
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle plus" data-toggle="dropdown">
-                   <i class="fa fa-plus"></i><span>Plus</span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
-                  </ul>
-                </li>
             </ul> 
         </div>
       </div>
@@ -89,62 +54,28 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="">Accueil</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Top <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Hacks & DIY</a></li>
-                    <li><a href="#">Tutoriels</a></li>
-                    <li><a href="#">Impression 3D</a></li>
-                    <li><a href="#">Météorologie</a></li>
-                    <li><a href="#">Découvertes</a></li>
-                    <li><a href="#">Urbex</a></li>
-                    <li><a href="#">Drône</a></li>
-                  </ul>
-                </li>
-                <li><a href="">#bref</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    À propos <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Matériel</a></li>
-                    <li><a href="#">Wishlist</a></li>
-                  </ul>
-                </li>
-                <li><a href="">Liens</a></li>
-                <li><a href="">Chat</a></li>
-                <li><a href="">Contact</a></li>
+                
+                {% include menu.html %}
+
                 <li><input type="text" placeholder="Rechercher...">
                 <input type="submit" value=""></li>
             </ul>
             <ul class="other_sites nav navbar-nav navbar-right">
 
-                <li><a href="" class="live">
+                <li><a href="http://www.iooner.me/soon" class="live">
                     <i class="fa fa-play"></i> 
                 </a></li>
-                <li><a href="" class="labs">
+                <li><a href="http://www.iooner.me/soon" class="labs">
                     <i class="fa fa-flask"></i>
                 </a></li>
-                <li><a href="" class="sharlii">
+                <li><a href="http://www.iooner.me/soon" class="sharlii">
                     <i class="fa fa-expand"></i> 
                 </a></li>
-                <li><a href="" class="sharlii">
+                <li><a href="http://www.iooner.me/soon" class="shop">
                     <i class="fa fa-shopping-cart"></i> 
                 </a></li>
 
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle plus" data-toggle="dropdown">
-                    <i class="fa fa-plus"></i>
-                    <span></span>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
-                  </ul>
-                </li>
+
             </ul> 
         </div>
       </div>
@@ -172,27 +103,19 @@
                     <li><a href="http://www.iooner.me" class="blog">
                         <i class="fa fa-file-text"></i> Blog
                     </a></li>
-                    <li><a href="http://www.iooner.me/live" class="live">
+                    <li><a href="http://www.iooner.me/soon" class="live">
                         <i class="fa fa-play"></i> Live
                     </a></li>
-                    <li><a href="http://www.iooner.me/lab" class="labs">
+                    <li><a href="http://www.iooner.me/soon" class="labs">
                         <i class="fa fa-flask"></i> Lab
                     </a></li>
-                    <li><a href="http://www.iooner.me/liens" class="sharlii">
+                    <li><a href="http://www.iooner.me/soon" class="sharlii">
                         <i class="fa fa-expand"></i> Liens
                     </a></li>
-                    <li><a href="http://www.iooner.me/shop" class="shop">
+                    <li><a href="http://www.iooner.me/soon" class="shop">
                         <i class="fa fa-shopping-cart"></i> Shop
                     </a></li>
 
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle plus" data-toggle="dropdown">
-                        <i class="fa fa-chevron-down"></i>
-                      </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
-                      </ul>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -202,35 +125,9 @@
                     <img src="{{site.baseurl}}/img/logo.png" class="img-responsive" alt="logo"/>
                 </div>
                 <ul class="col-lg-8 col-md-8 nav_blog">
-                    <li><a href="">Accueil</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        Top <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Hacks & DIY</a></li>
-                        <li><a href="#">Tutoriels</a></li>
-                        <li><a href="#">Impression 3D</a></li>
-                        <li><a href="#">Météorologie</a></li>
-                        <li><a href="#">Découvertes</a></li>
-                        <li><a href="#">Urbex</a></li>
-                        <li><a href="#">Drône</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="">#bref</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        À propos <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">À propos</a></li>
-                        <li><a href="#">Matériel</a></li>
-                        <li><a href="#">Wishlist</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="">Liens</a></li>
-                    <li><a href="">Chat</a></li>
-                    <li><a href="">Contact</a></li>
+ 
+                    {% include menu.html %}
+
                     <li><input type="text" placeholder="Rechercher...">
                     <input type="submit" value=""></li>
                 </ul>

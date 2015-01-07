@@ -4,9 +4,10 @@ titre:  	"Refonte totale du blog !"
 date:   	2015-01-07 1:11:47
 auteur: 	iooner
 categories: blog
-tags: 		blog jekyll nouveau
-img: 		"upload/new_blog.jpg"
-publie:		1
+tags:		blog jekyll nouveau
+img: 		"upload/codeit.jpg"
+partage:	1
+comment:	1
 ---
 Hellow!  
 
@@ -22,13 +23,13 @@ Vous remarquerez également le passage en SSL d'iooner.me :) *Merci à Meroje po
 
 <hr>
 
-Crédit photo : [Martino Sabia][photo]
+Crédit photo : [Tsevis][photo]
 
 
 
 
 
-[photo]:		https://www.flickr.com/photos/ezu/
+[photo]:		https://www.flickr.com/photos/tsevis/
 [jekyll]:		http://jekyllrb.com/
 [old]:			https://iooner.me/old
 [markdown]:		http://fr.wikipedia.org/wiki/Markdown

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              {{ page.titre }}
+          </h1>
+      </div>
+      <br>
+      {% if page.img %}
+      <div class="img_full">
+        <img class="img-full" src="{{ site.baseurl }}/img/{{ page.img }}" alt="{{ page.titre }}" />
+      </div>
+      {% endif %}
+      <div class="text">
+       {{ content }}
+
+      </div>
+   </article>
+  </div>
+
+

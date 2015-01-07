@@ -21,16 +21,21 @@ layout: default
       <div class="text">
        {{ post.content }}
           <div class="share">
+            {% if post.partage == 1 %}
               <h3>Partager :</h3>
                   <a class="btn-share facebook" href="#"><i class="fa fa-facebook"></i> Facebook</a>
                   <a class="btn-share twitter" href="#"><i class="fa fa-twitter"></i> Twitter</a>
                   <a class="btn-share google" href="#"><i class="fa fa-google-plus"></i> Google+</a>
+              {% endif %}
+             
               <h3>Tags :</h3>
               <span>
                 {% for tag in post.tags %}
                   <a href="/tag/{{ tag }}">{{ tag }},</a>
                 {% endfor %}
               </span>
+              
+
           </div>
           
       </div>
