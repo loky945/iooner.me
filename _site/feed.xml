@@ -6,12 +6,45 @@
 </description>
     <link>https://www.iooner.me/</link>
     <atom:link href="https://www.iooner.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Jan 2015 23:01:50 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Jan 2015 23:01:50 +0100</lastBuildDate>
+    <pubDate>Wed, 07 Jan 2015 01:53:17 +0100</pubDate>
+    <lastBuildDate>Wed, 07 Jan 2015 01:53:17 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome To Jekyll</title>
+        <title>Refonte Totale Du Blog</title>
+        <description>&lt;p&gt;Hellow!  &lt;/p&gt;
+
+&lt;p&gt;Prenez donc un siège, installez-vous !&lt;br /&gt;
+Bienvenue sur cette refonte à 0 du blog. Certains diront ENCORE !? Cela fait 1 an et 3 mois que le Wordpress tournait. N’ayant pas atteint les limites de Wordpress mais ce dernier ayant atteint les miennes, j’ai décidé de m’en séparer.  &lt;/p&gt;
+
+&lt;p&gt;Ce &lt;strong&gt;nouveau blog est réalisé&lt;/strong&gt; graphiquement par mon ami Théo (trouvez le lien de son site dans le footer) et propulsé par Jekyll. Jekyll est une gem ruby vous générant votre site statique à partir de Markdown dans mon cas. &lt;em&gt;Ce blog est entièrement statique&lt;/em&gt; à part pour les commentaires ou j’ai fais le choix de disqus pour diverses raisons. Si vous souhaitez en savoir plus sur Jekyll rendez-vous sur le &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;site du projet&lt;/a&gt; ou n’hésitez pas à me poser vos questions !&lt;/p&gt;
+
+&lt;p&gt;Vous remarquerez également le passage en SSL d’iooner.me :) &lt;em&gt;Merci à Meroje pour son aide dans ce monde qui m’était plus que flou :).&lt;/em&gt; Tant que nous sommes dans les “nouveautées” tous mes sites, services, tools et cie vont déménager sur iooner.me/xxx (xxx = nom du site, …). Vous pouvez déjà en voir certain dans le header (au moment ou je vous écris uniquement le blog est prêt).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Et pour les anciens articles ?&lt;/strong&gt; Pas de panique l’ancien blog est toujours accecible &lt;a href=&quot;https://iooner.me/old&quot;&gt;ici&lt;/a&gt;. Je suis actuellement en train de “re-rédiger” tous les anciens articles en valant la peine en markdown et en profitant pour les mettres à jour pour certains.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Crédit photo : &lt;a href=&quot;https://www.flickr.com/photos/ezu/&quot;&gt;Martino Sabia&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 07 Jan 2015 02:11:47 +0100</pubDate>
+        <link>https://www.iooner.me/refonte-totale-du-blog/</link>
+        <guid isPermaLink="true">https://www.iooner.me/refonte-totale-du-blog/</guid>
+        
+        <category>blog</category>
+        
+        <category>jekyll</category>
+        
+        <category>nouveau</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome To Jekyll   copie 10</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -28,8 +61,8 @@
 
 </description>
         <pubDate>Tue, 06 Jan 2015 16:00:00 +0100</pubDate>
-        <link>https://www.iooner.me/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://www.iooner.me/welcome-to-jekyll/</guid>
+        <link>https://www.iooner.me/welcome-to-jekyll%20-%20copie%2010/</link>
+        <guid isPermaLink="true">https://www.iooner.me/welcome-to-jekyll%20-%20copie%2010/</guid>
         
         <category>test</category>
         

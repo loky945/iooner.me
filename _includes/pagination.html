@@ -2,26 +2,21 @@
 <article class="feed pages text-center">
   <ul class="pagination">
 
-  {% if paginator.previous_page %}
+
+
+   {% if paginator.previous_page %}
     <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-chevron-left"></i></a></li>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <li><a>{{ page }}</a><li>
-    {% elsif page == 1 %}
-      <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-    {% else %}
-      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-    {% endif %}
-  {% endfor %}
-
+  <li><a>{{ paginator.page }}/{{ paginator.total_pages }}</a></li>
   {% if paginator.next_page %}
     <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-chevron-right"></i></a></li>
   {% endif %}
 
-  </ul>    
+  </ul> 
+ 
 </article>
 
 {% endif %}
+
+
 

@@ -11,7 +11,7 @@ layout: default
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.titre }}</a>
           </h1>
           
-          <h5>{{ post.auteur }}, {{ post.date | date: "%D - %k:%M" }}</h5>
+          <h5>{{ post.auteur }}, {{ post.date | date: "%-d/%m/%Y - %k:%M" }}</h5>
       </div>
       {% if post.img %}
       <div class="img_full">

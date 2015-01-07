@@ -83,7 +83,7 @@ p {
 a {
 	color: #29a6e6;
 	font-weight: 700;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 a:hover {
