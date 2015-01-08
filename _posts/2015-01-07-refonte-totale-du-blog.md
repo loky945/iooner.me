@@ -8,6 +8,7 @@ tags:		blog jekyll nouveau
 img: 		"upload/codeit.jpg"
 partage:	1
 comment:	1
+complet:	1
 ---
 Hellow!  
 

@@ -19,7 +19,11 @@ layout: default
       </div>
       {% endif %}
       <div class="text">
-       {{ post.content }}
+       {% if post.complet == 1 %}
+          {{ post.content }}
+       {% else %}
+          {{ post.excerpt }}
+       {% endif %}
           <div class="share">
             {% if post.partage == 1 %}
               <h3>Partager :</h3>
