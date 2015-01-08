@@ -6,9 +6,26 @@
 </description>
     <link>https://www.iooner.me/</link>
     <atom:link href="https://www.iooner.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Jan 2015 12:14:42 +0100</pubDate>
-    <lastBuildDate>Wed, 07 Jan 2015 12:14:42 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Jan 2015 12:06:00 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Jan 2015 12:06:00 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+
+    
+      <item>
+        <title>Resolutions 2015 Retour Sur 2014</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;Crédit photo : &lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 07 Jan 2015 19:13:19 +0100</pubDate>
+        <link>https://www.iooner.me/resolutions-2015-retour-sur-2014/</link>
+        <guid isPermaLink="true">https://www.iooner.me/resolutions-2015-retour-sur-2014/</guid>
+        
+        
+        <category>life</category>
+        
+      </item>
     
       <item>
         <title>Refonte Totale Du Blog</title>
@@ -42,6 +59,7 @@ Bienvenue sur cette refonte à 0 du blog. Certains diront ENCORE !? Cela fait 1 
         <category>blog</category>
         
       </item>
+    
     
   </channel>
 </rss>

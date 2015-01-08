@@ -891,6 +891,10 @@ article a.btn-share:hover {
 	transition: all .15s ease-in-out;
 }
 
+article .sharebtn {
+	text-align: center;
+}
+
 article a.facebook {
 	background: #3B5998;
 }
@@ -901,6 +905,10 @@ article a.twitter {
 
 article a.google {
 	background: #dd4b39;
+}
+
+article a.flattr {
+	background: #66B115;
 }
 
 article span a {
