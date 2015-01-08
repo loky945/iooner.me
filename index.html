@@ -24,10 +24,14 @@ layout: default
             {% if post.partage == 1 %}
               <h3>Partager :</h3>
                 <div class="sharebtn">
-                  <a class="btn-share facebook" href="#"><i class="fa fa-facebook"></i> Facebook</a>
-                  <a class="btn-share twitter" href="#"><i class="fa fa-twitter"></i> Twitter</a>
-                  <a class="btn-share google" href="#"><i class="fa fa-google-plus"></i> Google+</a>
-                  <a class="btn-share flattr" href="#"><i class="fa fa-money"></i> Flattr</a>
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl | prepend: site.siteurl }}" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status={{ post.titre }} {{ post.url | prepend: site.baseurl | prepend: site.siteurl }} via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl | prepend: site.siteurl }}" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+                  <a class="btn-share flattr" href="https://flattr.com/submit/auto?\user_id=iooner&url={{ post.url | prepend: site.baseurl | prepend: site.siteurl }}&title={{ post.titre }} - iooner.me&\description={{ post.titre }}&language=French&\tags={% for tag in post.tags %}{{ tag }},{% endfor %}&hidden=0&category=text"><i class="fa fa-money"></i> Flattr</a>
+                
+
                 </div>
               {% endif %}
              
