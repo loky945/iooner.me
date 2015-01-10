@@ -16,13 +16,10 @@ Vous savez à quel point je suis un fan de récupération et surtout de détourn
 
 Bon j,'arrête le "suspense" maintenant et je vous dis enfin ce que c'est ! Simplement le, détournement de palettes logistique.Vous savez les palettes en bois toute dégueulasse le plus souvent dans les grands magasins et cie ?
 
-
 Le site, [1001pallets.com][pallets] est littéralement une bible de la palette ! Formats, Où s’en procurer, … Tout, tout, tout, vous saurez tout sur la palette !
 <hr>
 
 [Voir l'article original.][original]
-
-<a href="{{ site.baseurl }}/img/upload/post1.jpg" data-lightbox="mobilier-recup" data-title="{{ post.titre }}"><img src="{{ site.baseurl }}/img/upload/post1.jpg" width="150" height="150" alt="{{ post.titre }}" /></a>
 
 
         

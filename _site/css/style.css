@@ -2,7 +2,7 @@
 @import "onlive.css";
 @import "../font-awesome/css/font-awesome.min.css";
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(//fonts.googleapis.com/css?family=Raleway:400,500,700);
 
 body {
 	-font-smoothing: antialiased;
@@ -47,6 +47,14 @@ ul.nav li>a:hover {
 	background-color: #e8e8e8;
 }
 
+article a.flattr {
+	background: #66B115;
+}
+
+.sharebtn {
+	text-align: center;
+}
+
 h1 {
 	color: #272727;
 	font-weight: 700;
@@ -83,7 +91,7 @@ p {
 a {
 	color: #29a6e6;
 	font-weight: 700;
-	/*text-transform: uppercase;*/
+/*	text-transform: uppercase;*/
 }
 
 a:hover {
@@ -688,10 +696,6 @@ a.navbar-brand .img-brand {
 	height: 50px;
 }
 
-.menu_condensed ul.other_sites li>a i {
-	width: 22px;
-}
-
 .menu_condensed ul.other_sites li>a span {
 	text-transform: uppercase;
 	margin-left: 20px;
@@ -891,10 +895,6 @@ article a.btn-share:hover {
 	transition: all .15s ease-in-out;
 }
 
-article .sharebtn {
-	text-align: center;
-}
-
 article a.facebook {
 	background: #3B5998;
 }
@@ -905,10 +905,6 @@ article a.twitter {
 
 article a.google {
 	background: #dd4b39;
-}
-
-article a.flattr {
-	background: #66B115;
 }
 
 article span a {
@@ -979,6 +975,10 @@ footer p {
 		font-size: 18px;
 	}
 
+	.menu_condensed ul.other_sites li>a i {
+		width: 22px;
+	}
+
 	.navbar-nav .open .dropdown-menu>li>a {
 		color: #fefefe;
 	}
@@ -997,7 +997,7 @@ footer p {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	article:first-child {
 		margin-top: 50px;
 	}
@@ -1041,9 +1041,13 @@ footer p {
 	.menu_condensed .other_sites span {
 		display: none;
 	}
+
+	.menu_condensed ul.other_sites li>a i {
+		width: auto !important;
+	}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 991px) and (max-width: 1199px) {
 	.menu_scroll .nav>li>a {
 		padding-left: 7px;
 		padding-right: 7px;
