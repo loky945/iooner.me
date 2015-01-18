@@ -19,14 +19,14 @@ Bon j,'arrête le "suspense" maintenant et je vous dis enfin ce que c'est ! Simp
 Le site, [1001pallets.com][pallets] est littéralement une bible de la palette ! Formats, Où s’en procurer, … Tout, tout, tout, vous saurez tout sur la palette !
 <hr>
 
-[Voir l'article original.][original]
+[Voir l'article original.][original] sur *iooner.me/old/*
 
 
         
 
 
 
-[original]:		http://www.iooner.me/mobilier-tendance-de-recup/
+[original]:		http://www.iooner.me/old/mobilier-tendance-de-recup/
 [pallets]:		http://www.1001pallets.com/
 
 

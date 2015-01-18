@@ -8,10 +8,20 @@ layout: default
       <div class="title">
         
           <h1>
+              {% if post.edito == 1 %}
+                {{ post.titre }}
+              {% else %}
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.titre }}</a>
+              {% endif %}
           </h1>
           
-          <h5>{{ post.auteur }}, {{ post.date | date: "%-d/%m/%Y - %k:%M" }}</h5>
+
+            {% if post.edito == 1 %}
+              <h5>Auteur <strong>{{ post.auteur }}</strong> - {{ post.date | date: "%D" }}</h5>
+              {% else %}
+              <h5>Auteur <strong>{{ post.auteur }}</strong> - Catégorie <strong>{{ post.categories}}</strong> - {{ post.date | date: "%D" }}</h5>
+            {% endif %}
+          
       </div>
       {% if post.img %}
       <div class="img_full">
@@ -21,12 +31,13 @@ layout: default
       <div class="text">
        {% if post.complet == 1 %}
           {{ post.content }}
-          <a class="btn1 read" href="{{ post.url | prepend: site.baseurl }}#commentaires"> Commentaires </a>
+          {% if post.comment == 1 %}<a class="btn1 read" href="{{ post.url | prepend: site.baseurl }}#commentaires"> Commentaires </a>{% endif %}
        {% else %}
           {{ post.excerpt }}
-          <a class="btn1 read" href="{{ post.url | prepend: site.baseurl }}#commentaires"> Commentaires </a> <a class="btn1 read" href="{{ post.url | prepend: site.baseurl }}"> Lire la suite </a>
+          {% if post.comment == 1 %}<a class="btn1 read" href="{{ post.url | prepend: site.baseurl }}#commentaires"> Commentaires </a> {% endif %}<a class="btn1 read" href="{{ post.url | prepend: site.baseurl }}"> Lire la suite </a>
        {% endif %}
-       <div class="separator"></div>
+      <div class="separator"></div>
+       {% if post.footeroff != 1 %}
           <div class="share">
             {% if post.partage == 1 %}
               <h3>Partager :</h3>
@@ -48,6 +59,7 @@ layout: default
                 {% endfor %}
               </span>-->
           </div>
+          {% endif %}
           
       </div>
    </article>
