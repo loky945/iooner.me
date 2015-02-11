@@ -16,6 +16,5 @@ complet:	1
 Certains d'entre vous on eu un "coup de panique" à voir le nouveau blog, comme je le dis dans l'article ci-dessous, l'ancien blog sera disponible en lecture seule sous-peu à l'adresse [old.iooner.me][old].  
 Merci pour tout l'enthousiasme que vous avez montré à cette grosse refonte du blog et aux futures nouvelles sections.  
 J'ai actuellement retenu 28 articles méritant leur retour et leur réécriture sur ce nouvel espace. Un peu de patience que je retape tout :)
-
                     
 [old]:	http://old.iooner.me/

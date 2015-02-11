@@ -793,6 +793,10 @@ article.feed:first-child {
 	margin-top: 15px;
 }
 
+article.feed .text ul {
+	list-style: disc;
+}
+
 article.pages {
 	border-bottom: 0px;
 	margin-bottom: 15px;
