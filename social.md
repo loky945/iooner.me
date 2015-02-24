@@ -1,10 +1,11 @@
 ---
-layout: 	page
-titre: 		Socialize Me
-permalink: 	/social/
-img:		upload/social.jpg
----  
- 
+layout: page
+titre: Socialize Me
+permalink: /social/
+img: upload/social.jpg
+published: true
+---
+
 Voici le listing de tous les endroits ou je traine sur le net.  
 
 
@@ -19,7 +20,6 @@ Voici le listing de tous les endroits ou je traine sur le net.
 **PostCrossing:** [iooner (postcrossing.com/user/iooner)][post]  
 **Instructable** [instructables.com/member/iooner][instructable]  
 **Github** [github.com/iooner][github]
-
 
 
 
