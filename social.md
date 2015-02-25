@@ -20,6 +20,7 @@ Voici le listing de tous les endroits ou je traine sur le net.
 **PostCrossing:** [iooner (postcrossing.com/user/iooner)][post]  
 **Instructable** [instructables.com/member/iooner][instructable]  
 **Github** [github.com/iooner][github]
+**KickStarter** [kickstarter.com/profile/iooner][kick]
 
 
 
@@ -34,3 +35,4 @@ Voici le listing de tous les endroits ou je traine sur le net.
 [flickr]: 		https://www.flickr.com/photos/lckx/
 [instructable]: http://www.instructables.com/member/iooner/
 [github]:		http://github.com/iooner
+[kick]:			https://www.kickstarter.com/profile/iooner
