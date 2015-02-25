@@ -1,10 +1,10 @@
 ---
-layout: 	page
-titre: 		A propos
-permalink: 	/apropos/
-img:		upload/coveriooner.jpg
----  
-  
+layout: page
+titre: A propos
+permalink: /apropos/
+img: upload/coveriooner.jpg
+published: true
+---
 
 ####Le blog
 Les technologies employées pour le développement de ce blog sont les suivantes : 
@@ -17,7 +17,9 @@ Les technologies employées pour le développement de ce blog sont les suivantes
 * Font Awesome,
 * Markdown.
 
-Le site est push sur mon Git public sur Github à chaque modification (même l'ajout d'un article) et ensuite déployé sur le serveur web **Nginx**. Aucune base de données <del>n'a été blessée durant le dévelo...</del> n'est utilisée sur ce site tout est "statique". Si vous ne comprenez pas regardez les sources sur mon [github][github]. **Certes le site est disponible librement, mais cela ne vous donne pas pour autant le droit d'en utiliser le design. Le code ? Do what the fuck you want with !**
+Le site est push sur mon Git public sur Github à chaque modification (même l'ajout d'un article) et ensuite déployé sur le serveur web **Nginx**. Aucune base de données <del>n'a été blessée durant le dévelo...</del> n'est utilisée sur ce site tout est "statique". Si vous ne comprenez pas regardez les sources sur mon [github][github]. **Certes le site est disponible librement, mais cela ne vous donne pas pour autant le droit d'en utiliser le design. Le code ? Do what the fuck you want with !**  
+
+Pour la partie articles, ils sont rédigé sur Sublime Text avec le plugin Jekyll Markdown ou bien depuis n'importe quel navigateur web avec le service [Prose.io][prose]
   
 <br>
 
@@ -36,3 +38,4 @@ J'ai aussi une forte activité associative, [CowLAN ASBL][cow] ou je suis admini
 [liquid]:	https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 [cow]:		http://www.cowlan.be/
 [dgb]:		http://degebe.be
+[prose]:	http://prose.io
