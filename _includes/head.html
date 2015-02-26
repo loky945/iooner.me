@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-
     <!-- CSS call -->
     <link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -15,6 +14,30 @@
     <script src="{{ "/js/jquery-2.1.3.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iooner">
+    <meta name="twitter:creator" content="@iooner">
+    {% if page.titre %}
+    <meta name="twitter:title" content="{{ page.titre }}">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.desc %}
+    <meta name="twitter:description" content="{{ page.desc }}">
+    {% else %}
+    <meta name="twitter:description" content="Blog d'iooner Belge, développeur web. #maker, #hacker, #geek, #urbex.">
+    {% endif %}
+    {% if page.img %}
+    <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.img }}">
+    {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/img/avatar.png">
+    {% endif %}
 
 
 

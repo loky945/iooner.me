@@ -6,6 +6,7 @@ auteur: 	iooner
 categories: blog
 tags:		blog jekyll nouveau
 img: 		"upload/codeit.jpg"
+desc:		Le blog s'offre un lifting graphique et un nouveau moteur Jekyll.
 partage:	1
 comment:	1
 complet:	1
