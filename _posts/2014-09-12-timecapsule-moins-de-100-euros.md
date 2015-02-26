@@ -6,6 +6,7 @@ auteur: 	iooner
 categories: tutoriel
 tags:		Apple Timecapsule Raspberry Pi
 img: 		"upload/timemachine.jpg"
+desc:		Une Timecapsule à moins de 100€ et à base de Raspberry Pi !
 partage:	1
 comment:	1
 complet:	1
