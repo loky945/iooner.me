@@ -7,7 +7,7 @@ permalink: posts.json
       {
         "title": "{{ post.title | replace: '"', '\"' }}",
         "date": "{{ post.date }}",
-        "excerpt": "{{ post.desc | replace: '"', '\"' | strip_newlines | strip_html }}",
+        "intro": "{{ post.desc | replace: '"', '\"' | strip_newlines | strip_html }}",
         "url": "{{ post.url | prepend: site.url }}",
       }{% if forloop.last != true %},{% endif %}
     {% endfor %}
