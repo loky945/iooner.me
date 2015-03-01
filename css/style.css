@@ -839,7 +839,7 @@ ul.pagination li>a:hover {
 }
 
 article.feed img {
-	max-height: 200px;
+	/* max-height: 200px; */
 	margin: 20px 20px 20px 0px;
 	display: inline-block;
 }
