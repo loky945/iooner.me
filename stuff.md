@@ -1,10 +1,11 @@
 ---
-layout: 	page
-titre: 		Stuff
-permalink: 	/stuff/
-img:		upload/stuff.jpg
----  
-  
+layout: page
+titre: Stuff
+permalink: /stuff/
+img: upload/stuff.jpg
+published: true
+---
+
 Petit tour d'horizon du matériel que j'utilise.
 
 ####Mobile & au boulot
@@ -13,6 +14,7 @@ Petit tour d'horizon du matériel que j'utilise.
 * One+ One 64Gio,
 * Batterie Anker - 15000mAh,
 * Casque Marshall Major,
+* Pebble Smartwatch,
 * YubiKey. 
   
 ####@t home (Bureau)
