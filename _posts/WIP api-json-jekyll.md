@@ -3,8 +3,8 @@ layout: 	post
 titre:  	""
 date:   	yyyy-mm-dd hh:mm:ss
 auteur: 	iooner
-categories: 
-tags:				
+categories: Jekyll
+tags:		api json flux		
 img: 		"upload/"
 desc:		
 partage:	1

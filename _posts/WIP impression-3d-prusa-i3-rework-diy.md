@@ -1,13 +1,15 @@
 ---
 layout: 	post
-titre:  	"Pentatonix, Paris & Anvers"
+titre:  	""
 date:   	yyyy-mm-dd hh:mm:ss
 auteur: 	iooner
-categories: Culture
-tags:		Paris Anvers Pentatonix	
+categories: 
+tags:				
 img: 		"upload/"
 desc:		
 partage:	1
 comment:	1
 complet:	1
 ---
+
+Reprise d'un ancien article.

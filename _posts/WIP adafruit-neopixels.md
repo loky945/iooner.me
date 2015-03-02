@@ -1,10 +1,10 @@
 ---
 layout: 	post
-titre:  	"Pentatonix, Paris & Anvers"
+titre:  	"Néopixels Adafruit"
 date:   	yyyy-mm-dd hh:mm:ss
 auteur: 	iooner
-categories: Culture
-tags:		Paris Anvers Pentatonix	
+categories: test
+tags:		Neopixel Adafruit		
 img: 		"upload/"
 desc:		
 partage:	1

@@ -1,10 +1,10 @@
 ---
 layout: 	post
-titre:  	""
+titre:  	"Quiet, jouer avec Youtube"
 date:   	yyyy-mm-dd hh:mm:ss
 auteur: 	iooner
-categories: 
-tags:				
+categories: Web
+tags:		Youtube Quiet interactif	
 img: 		"upload/"
 desc:		
 partage:	1

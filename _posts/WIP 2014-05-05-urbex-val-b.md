@@ -1,10 +1,10 @@
 ---
 layout: 	post
-titre:  	""
+titre:  	"Urbex: Val B."
 date:   	yyyy-mm-dd hh:mm:ss
 auteur: 	iooner
-categories: 
-tags:				
+categories: urbex
+tags:		urbex val B Benoit		
 img: 		"upload/"
 desc:		
 partage:	1
