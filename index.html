@@ -19,7 +19,7 @@ layout: default
             {% if post.edito == 1 %}
               <h5>Auteur <strong>{{ post.auteur }}</strong> - {{ post.date | date: "%D" }}</h5>
               {% else %}
-              <h5>Auteur <strong>{{ post.auteur }}</strong> - Catégorie <strong>{{ post.categories}}</strong> - {{ post.date | date: "%D" }}</h5>
+              <h5>Auteur <strong>{{ post.auteur }}</strong> - Catégorie <strong>{{ post.categories}}</strong> - {{ post.date | date: "%d/%m/%Y" }}</h5>
             {% endif %}
           
       </div>

@@ -1,7 +1,7 @@
 ---
 layout: 	post
 titre:  	"Intégration Twitter cards avec Jekyll"
-date:   	2015-03-02 12:45:00
+date:   	2015-03-06 14:45:00
 auteur: 	iooner
 categories: Jekyll
 tags:		twitter cards jekyll intégration		
@@ -23,6 +23,8 @@ Pour le blog j'ai fais le choix de la "summary card" qui contiendra les infos su
 
 ##Intégration de la "carte"  
 A chaque partie j'utilise une condition afin de savoir si oui ou non je suis sur une page. Si non, je suis sur un article. L'exemple principal est l'utilisation de mon avatar en l'absence d'une illustration de page ou d'article.
+
+*Précision suite à une question les meta sont à placer dans votre head.*
 
 {% highlight HTML %}
 {% raw %}
