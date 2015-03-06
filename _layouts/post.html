@@ -28,7 +28,7 @@ layout: default
               <h3>Partager :</h3>
                 <div class="sharebtn">
                   <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
-                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status={{ post.titre }} {{ post.url | prepend: site.baseurl | prepend: site.url }} via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status={{ page.titre }} {{ post.url | prepend: site.baseurl | prepend: site.url }} via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
                   <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
                   <a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=http%3A%2F%2Fiooner.me{{ post.url | prepend: site.baseurl }}" target="_blank"><i class="fa fa-money"></i> Flattr</a>
                 </div>
