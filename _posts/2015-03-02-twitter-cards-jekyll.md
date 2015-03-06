@@ -6,7 +6,7 @@ auteur: 	iooner
 categories: Jekyll
 tags:		twitter cards jekyll intégration		
 img: 		"upload/twittercards.jpg"
-desc:		
+desc:		Intégration des Twitter cards à Jekyll.
 partage:	1
 comment:	1
 complet:	1
