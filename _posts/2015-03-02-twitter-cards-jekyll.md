@@ -24,7 +24,7 @@ Pour le blog j'ai fais le choix de la "summary card" qui contiendra les infos su
 ##Intégration de la "carte"  
 A chaque partie j'utilise une condition afin de savoir si oui ou non je suis sur une page. Si non, je suis sur un article. L'exemple principal est l'utilisation de mon avatar en l'absence d'une illustration de page ou d'article.
 
-*Précision suite à une question les meta sont à placer dans votre head.*
+*Précision suite à une question: Les meta sont à placer dans votre head.*
 
 {% highlight HTML %}
 {% raw %}
@@ -52,7 +52,7 @@ A chaque partie j'utilise une condition afin de savoir si oui ou non je suis sur
 {% endraw %}
 {% endhighlight %}  
 
-Si vous voulez en savoir plus sur les tags utilisés (page.desc, ...), pour rappel la source du blog est disponible sur [Github][git] ou n'hésitez pas à poser votre question en commentaire.
+Si vous voulez en savoir plus sur les tags utilisés (page.desc, ...), pour rappel la source du blog est disponible sur [Github][git] ou n'hésitez pas à poser vos questions en commentaire.
 
 
 [cards]:	https://dev.twitter.com/cards/overview
