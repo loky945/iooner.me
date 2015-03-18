@@ -17,7 +17,7 @@ MySensors est un projet opensource (hardware et software), permettant de réalis
 Ce projet utilise se base presque qu'exclusivement sur Arduino. Fort de de l'usage d'Arduino et de ses 2 communautés (Forum MySensors et les milliers de "bidouilleurs Arduino"), il en fait un projet parfait que je souhaitais vous présentez.  
 
 ##Théorie
-MySensors à fait le choix d'une utilisation sans fil (Parfait c'est ce que je recherchais) pour ses sensors, relays et gateway. C'est l'usage de la bande 2.4Ghz que vous connaissez je présume déjà grâce au wifi. 2 modules 2.4Ghz reviennent autour de 10$ ce qui reste accecible pour le plus grand nombre :)  
+MySensors à fait le choix d'une utilisation sans fil (Parfait c'est ce que je recherchais) pour ses sensors, relays et gateway. C'est l'usage de la bande 2.4Ghz que vous connaissez je présume déjà grâce au wifi. 2 modules 2.4Ghz reviennent autour de 10$ ce qui reste accessible pour le plus grand nombre :)  
 
 Je parlais de sensors (**S**), relays (**R**), gateway (**GW**) et aussi de capteurs (les capteurs seront des sondes de température, ...), nous voilà sur la même longueur d'onde d'un point de vue vocabulaire. C'est sommairement comme ça que se compose MySensors.  
 <img class="img-responsive" src="/img/upload/network_ms.png" alt="">  
