@@ -40,6 +40,16 @@ layout: default
                   <a href="/tag/{{ tag }}">{{ tag }},</a>
                 {% endfor %}
               </span>-->
+              <h3>Tags :</h3>
+              <span>
+                {% for tag in page.tags %}
+                  {% if forloop.last %}
+                    {{ tag }}
+                  {% else %}
+                    {{ tag }},
+                  {% endif %}
+                {% endfor %}
+              </span>
 
           </div>
           {% endif %}
