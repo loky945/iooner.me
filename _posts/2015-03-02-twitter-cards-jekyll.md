@@ -47,7 +47,7 @@ A chaque partie j'utilise une condition afin de savoir si oui ou non je suis sur
 {% if page.img %}
 <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.img }}">
 {% else %}
-<meta name="twitter:image:src" content="{{ site.url }}/img/avatar.png">
+<meta name="twitter:image:src" content="{{ site.url }}/img/imagepardefaut.png">
 {% endif %}
 {% endraw %}
 {% endhighlight %}  
