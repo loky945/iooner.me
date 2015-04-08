@@ -55,7 +55,7 @@ De simples modules 433Mhz que je possède déjà ou du Zwave.
 
  - Gestion du **chauffage** : Vanne domotique (zwave) Danfoss,
  - Détection de **présence** : Fibaro Eye Zwave,
- - Détection **fummées/incendie** : Fibaro FGSS-001 Zwave *(Cette solution me pose un soucis. Le FGSS-001 est juste un capteur pas de "sirène" en cas d'incendie, il dépend totalement de la domotique pour remonter une alerte. Pour cette raison, je cherche une autre solution)*.
+ - Détection **fummées/incendie** : Fibaro FGSS-001 Zwave,
  - **Prises électriques** : Recyclage des chacon DI-O (433Mhz sans retour d'état) pour les points les moins critiques, pour les autres utilisation de Fibaro WallPlug (Zwave avec retour d'état et consomation).
 
 
