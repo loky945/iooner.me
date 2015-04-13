@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Gestion de mes mots de passe avec 1Password"
 date:   	2015-03-07 01:23:00
 auteur: 	iooner
-categories: Tip
-tags:		one password mots passe 1password		
+categories: ['Tip']
+tags:		['one password', 'mots de passe', '1password']		
 img: 		"upload/1pass.jpg"
 desc:		La gestion de mes mots de passe, cartes bancaires, certifs, licences, ... avec 1Password.
 partage:	1

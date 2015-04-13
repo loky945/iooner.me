@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Seedbox simple sous Debian"
 date:   	2014-09-11 0:00:00
 auteur: 	iooner
-categories: tutoriel
-tags:		Debian seedbox torrent linux transmission
+categories: ['Tutoriel','Linux']
+tags:		['Debian','seedbox','torrent','linux','transmission']
 img: 		"upload/seedbox.jpg"
 desc:		Installation et configuration simple d'une seedbox sous Debian
 partage:	1

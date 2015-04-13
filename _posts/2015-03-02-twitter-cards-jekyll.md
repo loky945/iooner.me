@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Intégration Twitter cards avec Jekyll"
 date:   	2015-03-06 14:45:00
 auteur: 	iooner
-categories: Jekyll
-tags:		twitter cards jekyll intégration		
+categories: ['Tutoriel', 'Jekyll', 'Blog']
+tags:		['twitter cards', 'jekyll', 'intégration']		
 img: 		"upload/twittercards.jpg"
 desc:		Intégration des Twitter cards à Jekyll.
 partage:	1

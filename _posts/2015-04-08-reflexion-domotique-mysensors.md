@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Réflexion Domotique & MySensors"
 date:   	2015-04-08 15:42:02
 auteur: 	iooner
-categories: domotique
-tags:		mysensors zwave jeedom domotique 		
+categories: ['Domotique', 'DIY']
+tags:		['mysensors', 'zwave', 'Jeedom', 'domotique'] 		
 img: 		"upload/domotique.jpg"
 desc:		Réflexion sur la futur base domotique & MySensors
 partage:	1

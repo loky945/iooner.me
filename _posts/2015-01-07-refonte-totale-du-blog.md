@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Refonte totale du blog !"
 date:   	2015-01-07 1:11:47
 auteur: 	iooner
-categories: blog
-tags:		blog jekyll nouveau
+categories: ['Blog', 'Jekyll']
+tags:		['blog','jekyll','nouveau']
 img: 		"upload/codeit.jpg"
 desc:		Le blog s'offre un lifting graphique et un nouveau moteur Jekyll.
 partage:	1

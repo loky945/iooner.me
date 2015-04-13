@@ -17,16 +17,6 @@ permalink: /:title/
 paginate: 5
 paginate_path: "blog/:num"
 
-#image:
-#  source: img/upload
-#  output: img/upload
-#  	presets:
-#  		une:
-#  			width: 740
-#  			height: 175
-#  			attr:
-#        		class: img-full
-
 
 gems:
   - jekyll-sitemap

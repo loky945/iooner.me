@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Mobilier “tendance” de recup’ !"
 date:   	2013-12-23 12:00:00
 auteur: 	iooner
-categories: diy
-tags:		mobilier détournement recupération diy palette bois		
+categories: ['DIY']
+tags:		['mobilier','détournement','recupération','diy','palette','bois']		
 img: 		"upload/diy-palettes.jpg"
 desc:		Mobilier tendance DIY, de récupération à base de palettes en bois.
 partage:	1

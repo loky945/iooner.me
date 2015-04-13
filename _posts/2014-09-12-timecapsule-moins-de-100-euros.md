@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"Une TimeCapsule pour moins de 100€"
 date:   	2014-09-12 0:00:00
 auteur: 	iooner
-categories: tutoriel
-tags:		Apple Timecapsule Raspberry Pi
+categories: ['Tutoriel']
+tags:		['Apple', 'Timecapsule', 'Raspberry Pi']
 img: 		"upload/timemachine.jpg"
 desc:		Une Timecapsule à moins de 100€ et à base de Raspberry Pi !
 partage:	1

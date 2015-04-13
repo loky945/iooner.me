@@ -3,8 +3,8 @@ layout: 	post
 titre:  	"MySensors introduction & théorie"
 date:   	2015-03-18 14:15:48
 auteur: 	iooner
-categories: diy
-tags:		sensors capteurs maison mysensors électronique		
+categories: ['DIY']
+tags:		['sensors', 'capteurs', 'maison', 'mysensors', 'électronique']	
 img: 		"upload/mysensors.jpg"
 desc:		Introduction à MySensors et sa théorie.
 partage:	1

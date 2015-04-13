@@ -11,7 +11,7 @@ layout: default
               {{ page.titre }}
           </h1>
           
-          <h5>Auteur <strong>{{ page.auteur }}</strong> - Catégorie <strong>{{ page.categories}}</strong> - {{ page.date | date: "%d/%m/%Y" }}</h5>
+          <h5>Auteur <strong>{{ page.auteur }}</strong> - Categorie <strong>{{ page.categories[0] }}</strong> - {{ page.date | date: "%d/%m/%Y" }}</h5>
       </div>
       {% if page.img %}
       <div class="img_full">
@@ -23,7 +23,6 @@ layout: default
 
        {% if page.footeroff != 1 %}
           <div class="share">
-            
               {% if page.partage == 1 %}
               <h3>Partager :</h3>
                 <div class="sharebtn">
@@ -33,21 +32,17 @@ layout: default
                   <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url={{ site.url }}{{ page.url }}" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
                 </div>
               {% endif %}
-              
-              <!--<h3>Tags :</h3>
+              <br />
+              <h3>Catégories & Tags :</h3>
               <span>
-                {% for tag in page.tags %}
-                  <a href="/tag/{{ tag }}">{{ tag }},</a>
+                <strong>Catégories:</strong>
+                {% for category in page.categories %}
+                  {{category}}
                 {% endfor %}
-              </span>-->
-              <h3>Tags :</h3>
-              <span>
+                <br />
+                <strong>Tags:</strong> 
                 {% for tag in page.tags %}
-                  {% if forloop.last %}
-                    {{ tag }}
-                  {% else %}
-                    {{ tag }},
-                  {% endif %}
+                  {{ tag }}
                 {% endfor %}
               </span>
 
