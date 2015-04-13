@@ -37,12 +37,20 @@ layout: default
               <span>
                 <strong>Catégories:</strong>
                 {% for category in page.categories %}
-                  {{category}}
+                {% if forloop.last %}
+                    {{category}}
+                {% else %}
+                  {{category}},
+                {% endif %}
                 {% endfor %}
                 <br />
                 <strong>Tags:</strong> 
                 {% for tag in page.tags %}
-                  {{ tag }}
+                  {% if forloop.last %}
+                    {{tag}}
+                  {% else %}
+                    {{tag}},
+                  {% endif %}
                 {% endfor %}
               </span>
 
