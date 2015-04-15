@@ -28,3 +28,33 @@
   ga('send', 'pageview');
 
 </script>
+
+{% if page.loadjs != ficus %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var username = "domingo";   // Username (pour le getJSON)
+    var reload_delay = "1000"; // Durée avant prochain reload des données
+ 
+    streamTitle();
+ 
+    function streamTitle(){
+        // On récupère le tableau de données via l'API
+        $.getJSON('https://api.twitch.tv/kraken/channels/'+username+"?callback=?", function(data) {
+       
+            // On cherche l'information qui nous intéresse et on la stocke dans une variable
+            var streamTitle = data['status'];
+            // On affiche notre variable dans notre page HTML
+            $('#stream_title').html(streamTitle);
+ 
+        });
+    }
+ 
+    // reload AJAX
+    setInterval(function(){
+        streamTitle();
+    }, reload_delay);
+});
+</script>
+
+{% endif %}
